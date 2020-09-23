@@ -1,0 +1,36 @@
+.table {
+    border: 1px solid #000000;
+    padding: 1px;
+    margin: auto;
+    width: 70%;
+
+}
+
+.owner-row{
+    border: 1px dot-dash #f00;
+    flex-direction: row;
+    display: flex;
+}
+
+.owner-cell{
+    display: flex;
+    width: 10%;
+}
+.header-row{
+    border: 2px solid #000;
+    font: 16px bold;
+    width: 100%;
+    flex-direction: row;
+    display: flex;
+}
+
+.header-cell{
+    background-color: lightgray;
+    display: flex;
+    width: 10%;
+}
+.actions-cell{
+    display: flex;
+    background-color: darkgrey;
+    width: 20%;
+}
